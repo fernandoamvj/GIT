@@ -1,0 +1,18 @@
+git clone git://github.com/...                   // comando para clonar um repositorio qualquer do github sei lá pq não funciona com http ou https no link.
+git tag                                          // comando para mostrar as versões do repositorio, obs: esse comando deve ser executado dentro do repositorio
+git checkout v0.1 -f                               // comando para alterar os arquivos para a versão selecionada no caso a 0.1
+git diff v0.1 v0.2                              // mostra as diferenças entre a versão 0.1 e a 0.2
+git blame                                       // mostra os responsaveis pelas mudanças nos arquivos
+git init                                        //inicializa a pasta como um repositorio git
+git ls-files                                    // lista os arquivos que pertencem ao repositorio git
+git status                                      // lista todos os arquivos do diretorio e mostra a situação deles no repositorio git ou seja se eles foram adicionados ou n no projeto ,etc...
+git add index.html                              //adiciona o arquivo presente no diretorio ao repositório git
+git add -i index.html                              //adiciona o arquivo presente no diretorio ao repositório git de forma interativa
+git config --global user.name "fernandoamvj"    //seta o nome do usuario no GIT
+git config --global user.email "fernandoamvj@gmail.com" // seta o email do usuario no GIT
+git commit -m "Início do projeto"               // envia um commit ao repositorio com um nome qualquer
+/* existem 3 estados para um arquivo em um repositório GIT:
+1-Working Directory- quando o arquivo está no diretório mas ainda n foi indexado 
+2-Index - Arquivo indexado no repositorio(ou seja depois do git add)
+3-HEAD - arquivo commitado no projeto(depois do git commit)
+*/
