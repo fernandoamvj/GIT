@@ -12,7 +12,10 @@ git config --global user.name "fernandoamvj"    //seta o nome do usuario no GIT
 git config --global user.email "fernandoamvj@gmail.com" // seta o email do usuario no GIT
 git commit -m "Início do projeto"               // envia um commit ao repositorio com um nome qualquer
 /* existem 3 estados para um arquivo em um repositório GIT:
-1-Working Directory- quando o arquivo está no diretório mas ainda n foi indexado 
+1-Working Directory- quando o arquivo está no diretório mas ainda n foi indexado
 2-Index - Arquivo indexado no repositorio(ou seja depois do git add)
 3-HEAD - arquivo commitado no projeto(depois do git commit)
 */
+git log                                             //mostra o autor e data de cada commit
+git whatchanged                                     //git log + quais arquivos foram modificados
+git whatchanged - p                                 //git whatchanged + o que foi modificado em cada arquivo
