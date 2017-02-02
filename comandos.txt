@@ -20,3 +20,5 @@ git log                                             //mostra o autor e data de c
 git whatchanged                                     //git log + quais arquivos foram modificados
 git whatchanged - p                                 //git whatchanged + o que foi modificado em cada arquivo
 git remote add origin https://github.com/fernandoamvj/GIT.git  // adiciona um repositorio remoto com nome origin(padrão geralmente) no github link passado
+git push origin master                              // envia para o repositorio remoto origin na branch master
+ 
