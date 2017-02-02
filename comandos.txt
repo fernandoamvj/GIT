@@ -19,3 +19,4 @@ git commit -m "Início do projeto"               // envia um commit ao repositor
 git log                                             //mostra o autor e data de cada commit
 git whatchanged                                     //git log + quais arquivos foram modificados
 git whatchanged - p                                 //git whatchanged + o que foi modificado em cada arquivo
+git remote add origin https://github.com/fernandoamvj/GIT.git  // adiciona um repositorio remoto com nome origin(padrão geralmente) no github link passado

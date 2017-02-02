@@ -1,0 +1,8 @@
+Erros:
+(1)fatal: Unable to find remote helper for 'https'  
+Solução:
+(1)-ir no diretorio que o git está instalado
+    sudo /. configure
+    sudo make
+    sudo make install
+    Restart e deu bão!!!
