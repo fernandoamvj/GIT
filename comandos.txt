@@ -21,4 +21,15 @@ git whatchanged                                     //git log + quais arquivos f
 git whatchanged - p                                 //git whatchanged + o que foi modificado em cada arquivo
 git remote add origin https://github.com/fernandoamvj/GIT.git  // adiciona um repositorio remoto com nome origin(padrão geralmente) no github link passado
 git push origin master                              // envia para o repositorio remoto origin na branch master
- 
+git branch                                      // lista todas as branches do repositorio GIT
+git branch design                              //cria a branch design no repositorio
+git checkout design                         // muda a branch utilizada no repositorio para design
+git checkout -b design                         // muda e cria a branch utilizada no repositorio para design
+git branch -d design                         // exclui a branch design do repositorio 
+git push -u origin design                    // cria a branch no repositorio remoto e a vincula com a branch local 
+git branch -r                               // lista as branches do repositorio remoto
+git branch -a                               // lista as branches do repositorio remoto e local
+git checkout -t                            //copia a branch remota para local
+git push -d origin design                  //exclui a branch design do repositorio remoto
+git fetch origin                            // verifica todas as alterações do repositorio remoto
+
